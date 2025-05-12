@@ -5,6 +5,7 @@ while True:
         menu = '''
                1. Sumar
                2. Restar
+               3. Dividir
                5. Salir
            '''
         
@@ -16,6 +17,9 @@ while True:
             continue;
         elif op == 2:
             print("La Resta es: ",num1-num2)
+            continue;
+        elif op == 3:
+            print("La Division es: ",num1/num2)
             continue;
         elif op == 5:
             print("Gracias por usar la calculadora, adios")
