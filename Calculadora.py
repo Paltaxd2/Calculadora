@@ -6,6 +6,7 @@ while True:
                1. Sumar
                2. Restar
                3. Dividir
+               4. Multiplicar
                5. Salir
            '''
         
@@ -20,6 +21,9 @@ while True:
             continue;
         elif op == 3:
             print("La Division es: ",num1/num2)
+            continue;
+        elif op == 4:
+            print("La Multiplicacion es: ",num1*num2)
             continue;
         elif op == 5:
             print("Gracias por usar la calculadora, adios")
