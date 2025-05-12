@@ -4,6 +4,7 @@ while True:
         num2 = int(input("Ingrese numero 2: "))
         menu = '''
                1. Sumar
+               2. Restar
                5. Salir
            '''
         
@@ -13,7 +14,10 @@ while True:
         if op == 1:
             print("La suma es: ",num1+num2)
             continue;
-        if op == 5:
+        elif op == 2:
+            print("La Resta es: ",num1-num2)
+            continue;
+        elif op == 5:
             print("Gracias por usar la calculadora, adios")
             break;
         else:
